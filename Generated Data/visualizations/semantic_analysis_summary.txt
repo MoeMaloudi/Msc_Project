@@ -1,0 +1,109 @@
+CICIDS2017 Semantic Network Analysis Summary
+==================================================
+
+General Statistics:
+Total flows analyzed: 17,911
+Total HTTP requests: 1,000
+Total DNS queries: 32
+Unique domains observed: 3,239
+
+URL Analysis:
+Domain entropy (avg): 2.60
+High entropy domains (>3.5): 0
+URL length (avg): 101.3 characters
+Long URLs (>100 chars): 343
+Top 5 TLDs:
+   com: 847
+   net: 141
+   org: 5
+   de: 5
+   jp: 2
+Top 5 suspicious keywords:
+   google (medium severity): 41,833
+   secure (high severity): 24,881
+   login (high severity): 11,285
+   amazon (medium severity): 7,821
+   download (low severity): 6,308
+
+DNS Analysis:
+Query entropy (avg): 3.28
+High entropy queries (>4.0): 0
+DGA probability (avg): 0.00
+High DGA probability queries (>0.7): 0
+Top 5 queried domains:
+   digicert: 50,483
+   symcb: 47,662
+   google: 32,889
+   godaddy: 31,682
+   geotrust: 31,266
+
+HTTP Analysis:
+HTTP method distribution:
+   GET: 706
+   POST: 276
+   HEAD: 18
+HTTP status code distribution:
+   2xx (Success): 851
+   3xx (Redirect): 147
+   4xx (Client Error): 1
+   5xx (Server Error): 1
+
+Command & Payload Analysis:
+Top 5 command keywords:
+   net: 1,604
+   ls: 1,126
+   cmd: 65
+   dir: 56
+   reg: 52
+Script language distribution:
+   bash: 1,197
+   javascript: 135
+   sql: 8
+   python: 6
+Total obfuscation indicators: 25,048
+Total encryption indicators: 333,234
+
+Semantic Feature Summary:
+   domain_entropy: min=0.00, avg=0.78, max=3.59
+   subdomain_count: min=0.00, avg=0.34, max=30.00
+   suspicious_keywords: min=0.00, avg=0.76, max=64.00
+   domain_age_category: min=0.50, avg=0.50, max=0.50
+   url_length: min=0.00, avg=19.07, max=1315.29
+   special_char_ratio: min=0.00, avg=0.10, max=0.45
+   numeric_ratio: min=0.00, avg=0.06, max=0.52
+   tld_reputation: min=0.70, avg=0.76, max=0.90
+   query_entropy: min=0.00, avg=0.00, max=0.00
+   dga_probability: min=0.00, avg=0.00, max=0.00
+   query_frequency: min=0.00, avg=0.00, max=0.00
+   unique_domains: min=0.00, avg=0.00, max=0.00
+   failed_queries: min=0.00, avg=0.00, max=0.00
+   subdomain_entropy: min=0.00, avg=0.00, max=0.00
+   user_agent_entropy: min=0.00, avg=0.49, max=5.08
+   header_anomalies: min=0.00, avg=0.02, max=8.00
+   content_type_variety: min=0.00, avg=0.11, max=6.00
+   status_code_distribution: min=0.20, avg=0.47, max=1.00
+   referrer_consistency: min=0.03, avg=0.99, max=1.00
+   cookie_complexity: min=0.00, avg=0.39, max=233.00
+   command_keywords: min=0.00, avg=0.17, max=7.00
+   obfuscation_indicators: min=0.00, avg=1.40, max=7574.00
+   script_language_mix: min=0.00, avg=0.08, max=4.00
+   dangerous_functions: min=0.00, avg=0.00, max=9.00
+   encryption_indicators: min=0.00, avg=18.61, max=23238.00
+   redirect_frequency: min=0.00, avg=0.01, max=1.00
+   https_ratio: min=0.00, avg=0.40, max=0.67
+   path_depth: min=0.00, avg=0.47, max=7.50
+   param_complexity: min=0.00, avg=0.10, max=78.50
+   host_diversity: min=0.00, avg=1.19, max=38.00
+   mime_type_entropy: min=0.00, avg=0.32, max=4.65
+   certificate_validity: min=0.50, avg=0.50, max=0.50
+   semantic_consistency: min=0.00, avg=0.47, max=0.97
+
+Threat Summary:
+Average threat score (0-10): 0.32
+High threat flows (score > 7): 0
+Medium threat flows (score 3-7): 1
+Low threat flows (score < 3): 17908
+
+==================================================
+Install visualization libraries for graphical reports:
+   pip install matplotlib seaborn plotly networkx nltk scikit-learn
