@@ -1,0 +1,802 @@
+[
+  {
+    "doc_id": "doc_828",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.398551"
+  },
+  {
+    "doc_id": "doc_829",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.398551"
+  },
+  {
+    "doc_id": "doc_830",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.398551"
+  },
+  {
+    "doc_id": "doc_831",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.398551"
+  },
+  {
+    "doc_id": "doc_832",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.413551"
+  },
+  {
+    "doc_id": "doc_833",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.413551"
+  },
+  {
+    "doc_id": "doc_834",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.413551"
+  },
+  {
+    "doc_id": "doc_835",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.413551"
+  },
+  {
+    "doc_id": "doc_836",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.429551"
+  },
+  {
+    "doc_id": "doc_837",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.429551"
+  },
+  {
+    "doc_id": "doc_838",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.444551"
+  },
+  {
+    "doc_id": "doc_839",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.444551"
+  },
+  {
+    "doc_id": "doc_840",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.460551"
+  },
+  {
+    "doc_id": "doc_841",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.460551"
+  },
+  {
+    "doc_id": "doc_842",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.866551"
+  },
+  {
+    "doc_id": "doc_843",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.866551"
+  },
+  {
+    "doc_id": "doc_844",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.944551"
+  },
+  {
+    "doc_id": "doc_845",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.944551"
+  },
+  {
+    "doc_id": "doc_846",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.959551"
+  },
+  {
+    "doc_id": "doc_847",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:05.959551"
+  },
+  {
+    "doc_id": "doc_848",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:06.006551"
+  },
+  {
+    "doc_id": "doc_849",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:06.006551"
+  },
+  {
+    "doc_id": "doc_850",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:06.880551"
+  },
+  {
+    "doc_id": "doc_851",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:06.880551"
+  },
+  {
+    "doc_id": "doc_852",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:07.940551"
+  },
+  {
+    "doc_id": "doc_853",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:07.940551"
+  },
+  {
+    "doc_id": "doc_854",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:07.956551"
+  },
+  {
+    "doc_id": "doc_855",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:07.956551"
+  },
+  {
+    "doc_id": "doc_860",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:09.064551"
+  },
+  {
+    "doc_id": "doc_861",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:09.064551"
+  },
+  {
+    "doc_id": "doc_862",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:09.391551"
+  },
+  {
+    "doc_id": "doc_863",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:09.391551"
+  },
+  {
+    "doc_id": "doc_866",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:10.218551"
+  },
+  {
+    "doc_id": "doc_867",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:10.218551"
+  },
+  {
+    "doc_id": "doc_870",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:13.338551"
+  },
+  {
+    "doc_id": "doc_871",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:13.338551"
+  },
+  {
+    "doc_id": "doc_872",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:13.541551"
+  },
+  {
+    "doc_id": "doc_873",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:13.541551"
+  },
+  {
+    "doc_id": "doc_880",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:16.910551"
+  },
+  {
+    "doc_id": "doc_881",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:16.910551"
+  },
+  {
+    "doc_id": "doc_884",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:17.566551"
+  },
+  {
+    "doc_id": "doc_885",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:17.566551"
+  },
+  {
+    "doc_id": "doc_886",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:17.706551"
+  },
+  {
+    "doc_id": "doc_887",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:17.706551"
+  },
+  {
+    "doc_id": "doc_894",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.219551"
+  },
+  {
+    "doc_id": "doc_895",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.219551"
+  },
+  {
+    "doc_id": "doc_896",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.687551"
+  },
+  {
+    "doc_id": "doc_897",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.687551"
+  },
+  {
+    "doc_id": "doc_898",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.718551"
+  },
+  {
+    "doc_id": "doc_899",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.718551"
+  },
+  {
+    "doc_id": "doc_900",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.733551"
+  },
+  {
+    "doc_id": "doc_901",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.733551"
+  },
+  {
+    "doc_id": "doc_902",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.749551"
+  },
+  {
+    "doc_id": "doc_903",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.749551"
+  },
+  {
+    "doc_id": "doc_904",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.749551"
+  },
+  {
+    "doc_id": "doc_905",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.749551"
+  },
+  {
+    "doc_id": "doc_906",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.765551"
+  },
+  {
+    "doc_id": "doc_907",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.765551"
+  },
+  {
+    "doc_id": "doc_910",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.921551"
+  },
+  {
+    "doc_id": "doc_911",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:20.921551"
+  },
+  {
+    "doc_id": "doc_912",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.623551"
+  },
+  {
+    "doc_id": "doc_913",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.623551"
+  },
+  {
+    "doc_id": "doc_914",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.810551"
+  },
+  {
+    "doc_id": "doc_915",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.810551"
+  },
+  {
+    "doc_id": "doc_916",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.966551"
+  },
+  {
+    "doc_id": "doc_917",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:21.966551"
+  },
+  {
+    "doc_id": "doc_922",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.184551"
+  },
+  {
+    "doc_id": "doc_923",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.184551"
+  },
+  {
+    "doc_id": "doc_924",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.309551"
+  },
+  {
+    "doc_id": "doc_925",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.309551"
+  },
+  {
+    "doc_id": "doc_932",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.637551"
+  },
+  {
+    "doc_id": "doc_933",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.637551"
+  },
+  {
+    "doc_id": "doc_934",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.652551"
+  },
+  {
+    "doc_id": "doc_935",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.652551"
+  },
+  {
+    "doc_id": "doc_936",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.668551"
+  },
+  {
+    "doc_id": "doc_937",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:22.668551"
+  },
+  {
+    "doc_id": "doc_940",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:23.073551"
+  },
+  {
+    "doc_id": "doc_941",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:23.073551"
+  },
+  {
+    "doc_id": "doc_948",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:24.883551"
+  },
+  {
+    "doc_id": "doc_949",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:24.883551"
+  },
+  {
+    "doc_id": "doc_952",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.055551"
+  },
+  {
+    "doc_id": "doc_953",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.055551"
+  },
+  {
+    "doc_id": "doc_954",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.679551"
+  },
+  {
+    "doc_id": "doc_955",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.679551"
+  },
+  {
+    "doc_id": "doc_956",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.975551"
+  },
+  {
+    "doc_id": "doc_957",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:25.975551"
+  },
+  {
+    "doc_id": "doc_958",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.459551"
+  },
+  {
+    "doc_id": "doc_959",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.459551"
+  },
+  {
+    "doc_id": "doc_960",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.505551"
+  },
+  {
+    "doc_id": "doc_961",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.505551"
+  },
+  {
+    "doc_id": "doc_962",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.537551"
+  },
+  {
+    "doc_id": "doc_963",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.537551"
+  },
+  {
+    "doc_id": "doc_964",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.552551"
+  },
+  {
+    "doc_id": "doc_965",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.552551"
+  },
+  {
+    "doc_id": "doc_966",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.583551"
+  },
+  {
+    "doc_id": "doc_967",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.583551"
+  },
+  {
+    "doc_id": "doc_968",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.599551"
+  },
+  {
+    "doc_id": "doc_969",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.599551"
+  },
+  {
+    "doc_id": "doc_970",
+    "classification": "web_attack",
+    "confidence": 0.8,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.615551"
+  },
+  {
+    "doc_id": "doc_971",
+    "classification": "benign",
+    "confidence": 0.1,
+    "threat_indicators": [],
+    "protocol": "TCP",
+    "timestamp": "2012-12-11T19:29:26.615551"
+  }
+]

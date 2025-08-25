@@ -1,0 +1,18 @@
+{
+  "total_samples": 416,
+  "num_batches": 5,
+  "batch_size": 100,
+  "image_size": [
+    256,
+    256,
+    3
+  ],
+  "classes": [
+    "benign",
+    "web_attack"
+  ],
+  "class_counts": {
+    "benign": 376,
+    "web_attack": 40
+  }
+}
