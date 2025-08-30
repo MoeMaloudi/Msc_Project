@@ -1,0 +1,75 @@
+======================================================================
+NETWORK PACKET ANALYSIS REPORT
+Memory-Optimized Pipeline V2.0 for CICIDS2017
+Generated: 2025-08-30 08:21:26
+======================================================================
+
+SYSTEM INFORMATION
+----------------------------------------
+Total RAM: 31.4 GB
+CPU: 12 cores
+Storage Format: parquet
+
+INPUT CONFIGURATION
+----------------------------------------
+PCAP File: Monday-WorkingHours.pcap
+File Size: 10.08 GB
+Analysis Mode: combined
+Deep Inspection: True
+
+PROCESSING STATISTICS
+----------------------------------------
+Total Flows: 358,789
+Processing Strategy: Disk-based
+Max Memory Setting: 8.0 GB
+Chunk Size: 30,000 packets
+Batch Size: 150,000 flows
+Max Flows in Memory: 75,000
+Max Packets per Flow: 1,000
+
+FEATURE SELECTION
+----------------------------------------
+Features Analyzed: 86
+Features Selected: 50
+CICIDS-specific Features: 29
+
+Top 10 Selected Features:
+   1. is_well_known_port
+   2. protocol
+   3. is_common_target_port
+   4. syn_count
+   5. has_dns
+   6. avg_ttl
+   7. fin_count
+   8. fwd_packet_length_min
+   9. dst_port
+  10. bwd_packet_length_min
+
+MACHINE LEARNING RESULTS
+----------------------------------------
+
+SGD ⭐:
+  Test Accuracy: 1.0000
+  Test Samples: 79,725
+  Unique Predictions: 1
+
+Best Model: sgd (Accuracy: 1.0000)
+
+MEMORY USAGE
+----------------------------------------
+Current Memory: 51.2%
+Available: 15.31 GB
+Used: 16.06 GB
+Total System: 31.37 GB
+
+ANALYSIS INSIGHTS & RECOMMENDATIONS
+----------------------------------------
+✓ Excellent model performance (>95%)
+   Ready for deployment consideration
+
+Storage Format: ✓ Using Parquet (optimal for Windows)
+
+
+======================================================================
+END OF REPORT
+======================================================================
