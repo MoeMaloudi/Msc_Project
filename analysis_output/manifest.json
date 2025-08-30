@@ -1,0 +1,20 @@
+{
+  "export_date": "2025-08-30T03:35:58.763098",
+  "total_rows": 5339,
+  "total_chunks": 1,
+  "chunk_pattern": "features_chunk_*.csv.gz",
+  "compression": "gzip",
+  "files": [
+    {
+      "filename": "features_chunk_000.csv.gz",
+      "rows": 5339,
+      "size_mb": 0.5154247283935547
+    }
+  ],
+  "source": {
+    "pcap": "M:\\TUD\\ATU\\Masters_project\\datasets\\Test\\test_100000_packets.pcap",
+    "analysis_mode": "combined",
+    "chunk_size": 50000,
+    "storage_format": "parquet"
+  }
+}
