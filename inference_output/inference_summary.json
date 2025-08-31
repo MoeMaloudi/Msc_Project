@@ -1,0 +1,23 @@
+{
+  "inference_timestamp": "2025-08-31T17:59:54.423578",
+  "total_flows": 426379,
+  "model_used": "random_forest",
+  "processing_time_seconds": 3.756477,
+  "feature_extraction_time": 4954.049346,
+  "attack_distribution": {
+    "BENIGN": 412254,
+    "DoS_Hulk": 13649,
+    "FTP-Patator": 476
+  },
+  "confidence_stats": {
+    "mean": 0.7,
+    "median": 0.7,
+    "min": 0.7,
+    "max": 0.7,
+    "std": 0.0,
+    "low_confidence_pct": 0.0,
+    "high_confidence_pct": 0.0
+  },
+  "unique_predictions": 3,
+  "pcap_analyzed": "Friday-WorkingHours.pcap"
+}
