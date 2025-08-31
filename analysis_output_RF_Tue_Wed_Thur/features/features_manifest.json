@@ -1,0 +1,32 @@
+{
+  "export_date": "2025-08-31T08:18:28.388836",
+  "total_rows": 284308,
+  "total_chunks": 5,
+  "files": [
+    {
+      "filename": "features_chunk_000.csv.gz",
+      "rows": 100000,
+      "size_mb": 10.257284164428711
+    },
+    {
+      "filename": "features_chunk_001.csv.gz",
+      "rows": 17314,
+      "size_mb": 1.8780803680419922
+    },
+    {
+      "filename": "features_chunk_002.csv.gz",
+      "rows": 100000,
+      "size_mb": 10.4780912399292
+    },
+    {
+      "filename": "features_chunk_003.csv.gz",
+      "rows": 17938,
+      "size_mb": 1.7968368530273438
+    },
+    {
+      "filename": "features_chunk_004.csv.gz",
+      "rows": 49056,
+      "size_mb": 4.363277435302734
+    }
+  ]
+}

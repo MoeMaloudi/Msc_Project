@@ -1,0 +1,5 @@
+True Label,BENIGN,Bot,DDoS,DoS_GoldenEye
+BENIGN,45144,0,0,1
+Bot,1,3757,0,0
+DDoS,0,0,47,0
+DoS_GoldenEye,0,0,0,106

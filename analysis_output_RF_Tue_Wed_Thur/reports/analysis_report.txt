@@ -1,0 +1,122 @@
+======================================================================
+COMPREHENSIVE NETWORK PACKET ANALYSIS REPORT
+Memory-Optimized Pipeline V2.0 for CICIDS2017
+Generated: 2025-08-31 14:31:21
+======================================================================
+
+SYSTEM INFORMATION
+----------------------------------------
+Total RAM: 31.4 GB
+CPU: 12 cores
+Storage Format: parquet
+
+INPUT CONFIGURATION
+----------------------------------------
+PCAP Files: 3 files processed
+  1. Tuesday-WorkingHours.pcap (10.29 GB)
+  2. Wednesday-workingHours.pcap (12.50 GB)
+  3. Thursday-WorkingHours.pcap (7.73 GB)
+Total PCAP Size: 30.52 GB
+Label Files: 4 CSV files
+Analysis Mode: combined
+Deep Inspection: True
+
+PROCESSING STATISTICS
+----------------------------------------
+Total Flows: 0
+Processing Strategy: Disk-based
+Max Memory Setting: 16.0 GB
+Class Balancing: ENABLED
+Stratified Split: ENABLED
+
+FEATURE SELECTION
+----------------------------------------
+Features Analyzed: 0
+Features Selected: 50
+CICIDS-specific Features: 23
+
+Top 10 Selected Features:
+   1. dst_port
+   2. bwd_packet_length_max
+   3. avg_ttl
+   4. ack_count_ratio
+   5. syn_count_ratio
+   6. fin_count_ratio
+   7. ack_count
+   8. bwd_packet_length_std
+   9. fwd_bytes
+  10. fwd_packet_length_max
+
+======================================================================
+MACHINE LEARNING RESULTS (COMPREHENSIVE)
+======================================================================
+
+RANDOM_FOREST BEST MODEL
+--------------------------------------------------
+Core Performance Metrics:
+  Test Accuracy: 1.0000
+  F1-Score (Macro): 0.9988
+  F1-Score (Weighted): 1.0000
+  Precision (Macro): 0.9977
+  Recall (Macro): 0.9999
+  ROC-AUC (Macro): 1.0000
+
+Security-Focused Metrics:
+  Attack Detection Rate: 0.9997
+  False Positive Rate: 0.0000
+  True Positives (Attacks): 3910
+  False Negatives (Missed): 1
+  True Negatives (Benign): 45144
+  False Positives (Benign as Attack): 1
+
+Data Statistics:
+  Test Samples: 49,056
+  Unique Predictions: 4
+  Unique True Labels: 4
+
+Top Per-Class F1 Scores:
+  FTP-Patator: 1.0000
+  BENIGN: 1.0000
+  DoS_Hulk: 0.9999
+  SSH-Patator: 0.9953
+
+Top 10 Important Features:
+   1. dst_port: 0.1611
+   2. psh_count_ratio: 0.0878
+   3. psh_count: 0.0729
+   4. fwd_psh_flags: 0.0699
+   5. bwd_psh_flags: 0.0482
+   6. nlp_special_char_ratio: 0.0397
+   7. ack_count_ratio: 0.0370
+   8. is_common_target_port: 0.0368
+   9. syn_count: 0.0310
+  10. ack_count: 0.0292
+
+Model Assessment:
+  STATUS:  EXCELLENT (>90% attack detection)
+
+
+Best Model: random_forest (F1-Macro: 0.9988)
+
+MEMORY USAGE
+----------------------------------------
+Current Memory: 58.9%
+Available: 12.91 GB
+Used: 18.46 GB
+Total System: 31.37 GB
+
+======================================================================
+ANALYSIS INSIGHTS & RECOMMENDATIONS
+======================================================================
+ Multi-Day Training: ENABLED
+   Provides balanced attack examples for better detection
+
+  Excellent average attack detection (>90%)
+   Ready for deployment consideration
+
+Storage Format:  Parquet (optimal)
+Class Balancing:  ENABLED
+
+======================================================================
+END OF COMPREHENSIVE REPORT
+======================================================================

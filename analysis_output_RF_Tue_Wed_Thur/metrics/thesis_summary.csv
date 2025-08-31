@@ -1,0 +1,2 @@
+Model,Accuracy,F1_Macro,F1_Weighted,Precision_Macro,Recall_Macro,Attack_Detection_Rate,False_Positive_Rate,Test_Samples,Training_Samples,Unique_Predictions,Training_Time_Seconds,ROC_AUC_Macro
+Random Forest,1.0,0.9988,1.0,0.9977,0.9999,0.9997,0.0,49056,0,4,0,0.9999996762289384

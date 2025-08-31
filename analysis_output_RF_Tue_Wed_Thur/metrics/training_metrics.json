@@ -1,0 +1,116 @@
+{
+  "random_forest": {
+    "model_name": "random_forest",
+    "test_samples": 49056,
+    "unique_predictions": 4,
+    "unique_true_labels": 4,
+    "evaluation_timestamp": "2025-08-31T14:31:21.213608",
+    "accuracy": 0.9999592302674495,
+    "f1_macro": 0.9987874865682609,
+    "f1_weighted": 0.9999592767629697,
+    "precision_macro": 0.9976580136900517,
+    "precision_weighted": 0.9999594207802184,
+    "recall_macro": 0.9999279375409766,
+    "recall_weighted": 0.9999592302674495,
+    "confusion_matrix": [
+      [
+        45144,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        3757,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        47,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        106
+      ]
+    ],
+    "attack_detection_rate": 0.9997443109179238,
+    "attack_true_positives": 3910,
+    "attack_false_negatives": 1,
+    "false_positive_rate": 2.2150847269908075e-05,
+    "benign_true_negatives": 45144,
+    "benign_false_positives": 1,
+    "classification_report": {
+      "BENIGN": {
+        "precision": 0.9999778491527301,
+        "recall": 0.9999778491527301,
+        "f1-score": 0.9999778491527301,
+        "support": 45145.0
+      },
+      "DoS_Hulk": {
+        "precision": 1.0,
+        "recall": 0.9997339010111762,
+        "f1-score": 0.9998669328010645,
+        "support": 3758.0
+      },
+      "FTP-Patator": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 47.0
+      },
+      "SSH-Patator": {
+        "precision": 0.9906542056074766,
+        "recall": 1.0,
+        "f1-score": 0.9953051643192489,
+        "support": 106.0
+      },
+      "accuracy": 0.9999592302674495,
+      "macro avg": {
+        "precision": 0.9976580136900517,
+        "recall": 0.9999279375409766,
+        "f1-score": 0.9987874865682609,
+        "support": 49056.0
+      },
+      "weighted avg": {
+        "precision": 0.9999594207802184,
+        "recall": 0.9999592302674495,
+        "f1-score": 0.9999592767629697,
+        "support": 49056.0
+      }
+    },
+    "per_class_f1": {
+      "BENIGN": 0.9999778491527301,
+      "DoS_Hulk": 0.9998669328010645,
+      "FTP-Patator": 1.0,
+      "SSH-Patator": 0.9953051643192489
+    },
+    "roc_auc_macro": 0.9999996762289384,
+    "top_20_features": {
+      "dst_port": 0.16113066302089574,
+      "psh_count_ratio": 0.08776887173845596,
+      "psh_count": 0.07287053560779223,
+      "fwd_psh_flags": 0.06993374552468376,
+      "bwd_psh_flags": 0.048193102255197864,
+      "nlp_special_char_ratio": 0.039720815366331486,
+      "ack_count_ratio": 0.03702432382906973,
+      "is_common_target_port": 0.0367712318001423,
+      "syn_count": 0.03103015500881813,
+      "ack_count": 0.02915991128190454,
+      "nlp_malicious_confidence": 0.026065066166881763,
+      "nlp_entropy_score": 0.02508731607414537,
+      "syn_count_ratio": 0.020301117082637488,
+      "fwd_bwd_packets_ratio": 0.018574031291133927,
+      "bwd_packets": 0.017704192404583548,
+      "bwd_packet_length_mean": 0.016225928193439525,
+      "fwd_packet_length_std": 0.015203370962333243,
+      "protocol": 0.01513783008169414,
+      "fin_count_ratio": 0.014733769749537435,
+      "fwd_packet_length_max": 0.014389226825401221
+    }
+  }
+}
