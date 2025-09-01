@@ -1,0 +1,18 @@
+{
+  "export_timestamp": "2025-09-01T08:56:04.088291",
+  "pipeline_version": "2.0",
+  "export_directory": "./analysis_output_XGBoost_Fri_Thur_Tues_Weds",
+  "exported_files": {
+    "models": [
+      "scaler.pkl",
+      "selected_features.pkl",
+      "selected_features.txt"
+    ],
+    "metrics": [],
+    "reports": [
+      "analysis_report.txt"
+    ],
+    "features": []
+  },
+  "model_performance": {}
+}

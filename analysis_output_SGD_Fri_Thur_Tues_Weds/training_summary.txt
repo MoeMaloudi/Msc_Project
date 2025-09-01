@@ -1,0 +1,5 @@
+TRAINING SUMMARY
+========================================
+Generated: 2025-09-01 10:31:29
+Features Used: 46
+sgd: Accuracy=0.684, Attack Detection=0.840

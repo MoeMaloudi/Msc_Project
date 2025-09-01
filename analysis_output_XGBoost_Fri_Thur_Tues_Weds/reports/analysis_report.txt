@@ -1,0 +1,69 @@
+======================================================================
+COMPREHENSIVE NETWORK PACKET ANALYSIS REPORT
+Memory-Optimized Pipeline V2.0 for CICIDS2017
+Generated: 2025-09-01 08:56:04
+======================================================================
+
+SYSTEM INFORMATION
+----------------------------------------
+Total RAM: 31.4 GB
+CPU: 12 cores
+Storage Format: parquet
+
+INPUT CONFIGURATION
+----------------------------------------
+PCAP Files: 4 files processed
+  1. Friday-WorkingHours.pcap (8.23 GB)
+  2. Thursday-WorkingHours.pcap (7.73 GB)
+  3. Tuesday-WorkingHours.pcap (10.29 GB)
+  4. Wednesday-workingHours.pcap (12.50 GB)
+Total PCAP Size: 38.75 GB
+Label Files: 7 CSV files
+Analysis Mode: flow
+Deep Inspection: True
+
+PROCESSING STATISTICS
+----------------------------------------
+Total Flows: 0
+Processing Strategy: Disk-based
+Max Memory Setting: 16.5 GB
+Class Balancing: ENABLED
+Stratified Split: ENABLED
+
+FEATURE SELECTION
+----------------------------------------
+Features Analyzed: 0
+Features Selected: 46
+CICIDS-specific Features: 28
+
+Top 10 Selected Features:
+   1. dst_port
+   2. bwd_packet_length_max
+   3. bwd_bytes
+   4. fwd_bytes
+   5. total_bytes
+   6. avg_ttl
+   7. ack_count
+   8. bwd_packet_length_mean
+   9. flow_duration
+  10. flow_iat_max
+
+MEMORY USAGE
+----------------------------------------
+Current Memory: 51.9%
+Available: 15.10 GB
+Used: 16.27 GB
+Total System: 31.37 GB
+
+======================================================================
+ANALYSIS INSIGHTS & RECOMMENDATIONS
+======================================================================
+ Multi-Day Training: ENABLED
+   Provides balanced attack examples for better detection
+
+Storage Format:  Parquet (optimal)
+Class Balancing:  ENABLED
+
+======================================================================
+END OF COMPREHENSIVE REPORT
+======================================================================
