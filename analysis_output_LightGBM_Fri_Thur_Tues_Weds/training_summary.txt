@@ -1,0 +1,5 @@
+TRAINING SUMMARY
+========================================
+Generated: 2025-09-01 05:20:57
+Features Used: 46
+lightgbm: Accuracy=0.996, Attack Detection=0.998

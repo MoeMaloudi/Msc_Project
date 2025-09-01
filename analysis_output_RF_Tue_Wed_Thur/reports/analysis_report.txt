@@ -1,7 +1,7 @@
 ======================================================================
 COMPREHENSIVE NETWORK PACKET ANALYSIS REPORT
 Memory-Optimized Pipeline V2.0 for CICIDS2017
-Generated: 2025-08-31 14:31:21
+Generated: 2025-08-31 22:03:35
 ======================================================================
 
 SYSTEM INFORMATION
@@ -12,12 +12,13 @@ Storage Format: parquet
 
 INPUT CONFIGURATION
 ----------------------------------------
-PCAP Files: 3 files processed
-  1. Tuesday-WorkingHours.pcap (10.29 GB)
-  2. Wednesday-workingHours.pcap (12.50 GB)
-  3. Thursday-WorkingHours.pcap (7.73 GB)
-Total PCAP Size: 30.52 GB
-Label Files: 4 CSV files
+PCAP Files: 4 files processed
+  1. Friday-WorkingHours.pcap (8.23 GB)
+  2. Thursday-WorkingHours.pcap (7.73 GB)
+  3. Tuesday-WorkingHours.pcap (10.29 GB)
+  4. Wednesday-workingHours.pcap (12.50 GB)
+Total PCAP Size: 38.75 GB
+Label Files: 7 CSV files
 Analysis Mode: combined
 Deep Inspection: True
 
@@ -100,9 +101,9 @@ Best Model: random_forest (F1-Macro: 0.9988)
 
 MEMORY USAGE
 ----------------------------------------
-Current Memory: 58.9%
-Available: 12.91 GB
-Used: 18.46 GB
+Current Memory: 52.7%
+Available: 14.85 GB
+Used: 16.52 GB
 Total System: 31.37 GB
 
 ======================================================================
