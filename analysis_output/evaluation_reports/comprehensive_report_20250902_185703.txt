@@ -1,0 +1,44 @@
+================================================================================
+COMPREHENSIVE MACHINE LEARNING EVALUATION REPORT
+Network Intrusion Detection Analysis
+Generated: 2025-09-02 18:57:03
+================================================================================
+
+DATA SOURCES
+----------------------------------------
+Metrics: training_metrics.json
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Best Performing Model: xgboost_incremental (f1_macro: 0.9525)
+Models Evaluated: 1
+Features Used: Not specified
+Average Accuracy: 0.9949
+Average F1 Macro: 0.9525
+
+DETAILED MODEL PERFORMANCE ANALYSIS
+================================================================================
+
+XGBOOST_INCREMENTAL MODEL ANALYSIS
+--------------------------------------------------
+Core Performance Metrics:
+  Accuracy: 0.9949
+  F1-Score (Macro): 0.9525
+  F1-Score (Weighted): 0.9949
+  Precision: 0.9509
+  Recall: 0.9542
+
+Security-Focused Metrics:
+  Attack Detection Rate: 0.9991
+  False Positive Rate: 0.0070
+
+==================================================
+
+COMPARATIVE MODEL ANALYSIS
+==================================================
+Model                     Accuracy     F1-Score     Precision    Recall      
+-------------------------------------------------------------------------
+xgboost_incremental       0.9949       0.9525       0.9509       0.9542      
+
+Report generated: 2025-09-02 18:57:03
+================================================================================

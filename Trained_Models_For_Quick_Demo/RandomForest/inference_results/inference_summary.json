@@ -1,0 +1,25 @@
+{
+  "inference_timestamp": "2025-09-02T18:00:57.455033",
+  "total_flows": 7508,
+  "model_used": "random_forest",
+  "processing_time_seconds": 0.275119,
+  "feature_extraction_time": 248.076367,
+  "attack_distribution": {
+    "BENIGN": 6662,
+    "DoS_Hulk": 811,
+    "FTP-Patator": 13,
+    "SSH-Patator": 22
+  },
+  "confidence_stats": {
+    "mean": 0.8499999999999996,
+    "median": 0.85,
+    "min": 0.85,
+    "max": 0.85,
+    "std": 3.3306690738754696e-16,
+    "low_confidence_pct": 0.0,
+    "high_confidence_pct": 1.0
+  },
+  "unique_predictions": 4,
+  "pcap_analyzed": "test_500000_packets.pcap",
+  "export_status": "SUCCESS"
+}

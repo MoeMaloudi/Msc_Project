@@ -1,0 +1,2 @@
+Model,test_samples,unique_predictions,unique_true_labels,accuracy,f1_macro,f1_weighted,precision_macro,precision_weighted,recall_macro,recall_weighted,attack_detection_rate,attack_true_positives,attack_false_negatives,false_positive_rate,benign_true_negatives,benign_false_positives,evaluation_time_seconds
+xgboost_incremental,182414,5,5,0.9948578508228535,0.9524683443162386,0.9948682538720562,0.9508672224259251,0.9949219180316647,0.9541958584242571,0.9948578508228535,0.999117387466902,66788,59,0.007000268242664428,114758,809,1.1658339500427246

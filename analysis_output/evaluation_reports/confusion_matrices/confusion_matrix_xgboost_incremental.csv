@@ -1,0 +1,6 @@
+,BENIGN,Bot,DDoS,DoS_GoldenEye,DoS_Hulk
+BENIGN,114758,1,0,808,0
+Bot,2,13986,0,0,0
+DDoS,1,0,202,0,31
+DoS_GoldenEye,56,0,0,52105,0
+DoS_Hulk,0,0,39,0,425

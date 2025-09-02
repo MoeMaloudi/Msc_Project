@@ -1,0 +1,88 @@
+================================================================================
+NETWORK ATTACK DETECTION - TRAINING REPORT
+================================================================================
+
+Generated: 2025-09-02 14:49:06
+Features Directory: M:\TUD\ATU\Masters_project\Msc_Project\Features_For_Quick_Demo\batch_parquet_files
+Output Directory: ./analysis_output
+
+FEATURE INFORMATION
+--------------------------------------------------
+Total Features Used: 46
+
+Selected Features:
+   1. flow_duration
+   2. total_packets
+   3. total_bytes
+   4. fwd_packets
+   5. fwd_bytes
+   6. fwd_packet_length_max
+   7. fwd_packet_length_min
+   8. fwd_packet_length_mean
+   9. fwd_packet_length_std
+  10. bwd_packets
+  11. bwd_bytes
+  12. bwd_packet_length_max
+  13. bwd_packet_length_min
+  14. bwd_packet_length_mean
+  15. bwd_packet_length_std
+  16. flow_iat_mean
+  17. flow_iat_std
+  18. flow_iat_max
+  19. flow_iat_min
+  20. active_mean
+  ... and 26 more features
+
+MODEL PERFORMANCE SUMMARY
+--------------------------------------------------
+Model                Accuracy   F1-Score   Attack Det.  FPR      Status      
+--------------------------------------------------------------------------------
+xgboost_incremental  0.9948     0.9958     0.9979       0.0082   EXCELLENT   
+
+XGBOOST_INCREMENTAL - DETAILED METRICS:
+  Accuracy:              0.9948
+  Precision (Macro):     0.9939
+  Recall (Macro):        0.9976
+  F1-Score (Macro):      0.9958
+  Attack Detection Rate: 0.9979
+  False Positive Rate:   0.0082
+  Test Samples:          246,445
+
+TRAINING CONFIGURATION
+--------------------------------------------------
+Dataset: CICIDS2017
+Algorithms: User Selected from LightGBM, SGD Classifier, Random Forest, XGBoost
+Feature Selection: Mutual Information + Variance Analysis
+Cross-Validation: Stratified Train/Test Split
+Class Balancing: Enabled for Imbalanced Attack Classes
+Memory Optimization: Batch Processing with Checkpoints
+
+MODEL DEPLOYMENT INSTRUCTIONS
+--------------------------------------------------
+To use the trained models for new network traffic analysis:
+
+```python
+import pickle
+
+# Load model
+with open('lightgbm_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+# Load scaler
+with open('feature_scaler.pkl', 'rb') as f:
+    scaler = pickle.load(f)
+
+# Load feature names
+with open('selected_features.pkl', 'rb') as f:
+    feature_names = pickle.load(f)
+
+# For new data:
+# 1. Extract same features used in training
+# 2. Select only features in 'feature_names'
+# 3. Scale: X_scaled = scaler.transform(X)
+# 4. Predict: predictions = model.predict(X_scaled)
+```
+
+================================================================================
+END OF REPORT
+================================================================================

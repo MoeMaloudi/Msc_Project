@@ -1,0 +1,103 @@
+{
+  "model_loading": {
+    "models_loaded": [
+      "random_forest"
+    ],
+    "models_failed": [],
+    "feature_count": 46,
+    "scaler_status": "LOADED",
+    "model_sizes": {
+      "random_forest": 7.269952774047852
+    },
+    "load_errors": [],
+    "load_timestamp": "2025-09-02T17:56:47.462652",
+    "scaler_size_mb": 0.0014896392822265625
+  },
+  "feature_extraction": {
+    "extraction_time_seconds": 248.076367,
+    "extraction_timestamp": "2025-09-02T18:00:55.606947",
+    "total_flows": 7508,
+    "total_batches": 1,
+    "feature_columns": [
+      "flow_duration",
+      "total_packets",
+      "total_bytes",
+      "fwd_packets",
+      "fwd_bytes",
+      "fwd_packet_length_max",
+      "fwd_packet_length_min",
+      "fwd_packet_length_mean",
+      "fwd_packet_length_std",
+      "bwd_packets",
+      "bwd_bytes",
+      "bwd_packet_length_max",
+      "bwd_packet_length_min",
+      "bwd_packet_length_mean",
+      "bwd_packet_length_std",
+      "flow_iat_mean",
+      "flow_iat_std",
+      "flow_iat_max",
+      "flow_iat_min",
+      "active_mean",
+      "active_std",
+      "active_max",
+      "active_min",
+      "idle_mean",
+      "idle_std",
+      "idle_max",
+      "idle_min",
+      "packets_per_second",
+      "bytes_per_second",
+      "avg_ttl",
+      "protocol",
+      "syn_count",
+      "ack_count",
+      "fin_count",
+      "rst_count",
+      "psh_count",
+      "urg_count",
+      "fwd_psh_flags",
+      "bwd_psh_flags",
+      "fwd_urg_flags",
+      "bwd_urg_flags",
+      "total_payload_bytes",
+      "avg_payload_size",
+      "avg_entropy",
+      "src_port",
+      "dst_port",
+      "flow_id"
+    ],
+    "missing_features": [],
+    "extra_features": [
+      "flow_id"
+    ],
+    "feature_overlap_ratio": 1.0,
+    "pcap_file": "test_500000_packets.pcap",
+    "pcap_size_gb": 0.4993664249777794
+  },
+  "classification": {
+    "model_name": "random_forest",
+    "classification_timestamp": "2025-09-02T18:00:55.647244",
+    "processing_time_seconds": 0.275119,
+    "batches_processed": 1,
+    "flows_classified": 7508,
+    "feature_alignment_issues": 0,
+    "prediction_distribution": {
+      "0": 6662,
+      "4": 811,
+      "7": 13,
+      "11": 22
+    },
+    "confidence_stats": {
+      "mean": 0.8499999999999996,
+      "median": 0.85,
+      "min": 0.85,
+      "max": 0.85,
+      "std": 3.3306690738754696e-16,
+      "low_confidence_pct": 0.0,
+      "high_confidence_pct": 1.0
+    },
+    "temporal_analysis": [],
+    "errors": []
+  }
+}
