@@ -1,0 +1,128 @@
+======================================================================
+COMPREHENSIVE NETWORK PACKET ANALYSIS REPORT
+Memory-Optimized Pipeline V2.0 for CICIDS2017
+Generated: 2025-09-02 09:58:51
+======================================================================
+
+SYSTEM INFORMATION
+----------------------------------------
+Total RAM: 31.4 GB
+CPU: 12 cores
+Storage Format: parquet
+
+INPUT CONFIGURATION
+----------------------------------------
+PCAP Files: 4 files processed
+  1. Friday-WorkingHours.pcap (8.23 GB)
+  2. Thursday-WorkingHours.pcap (7.73 GB)
+  3. Tuesday-WorkingHours.pcap (10.29 GB)
+  4. Wednesday-workingHours.pcap (12.50 GB)
+Total PCAP Size: 38.75 GB
+Label Files: 7 CSV files
+Analysis Mode: combined
+Deep Inspection: True
+
+PROCESSING STATISTICS
+----------------------------------------
+Total Flows: 0
+Processing Strategy: Disk-based
+Max Memory Setting: 16.5 GB
+Class Balancing: ENABLED
+Stratified Split: ENABLED
+
+FEATURE SELECTION
+----------------------------------------
+Features Analyzed: 0
+Features Selected: 50
+CICIDS-specific Features: 25
+
+Top 10 Selected Features:
+   1. dst_port
+   2. bwd_packet_length_max
+   3. syn_count_ratio
+   4. fwd_bwd_bytes_ratio
+   5. avg_packet_size
+   6. fwd_bytes
+   7. bwd_bytes
+   8. avg_ttl
+   9. total_bytes
+  10. ack_count_ratio
+
+======================================================================
+MACHINE LEARNING RESULTS (COMPREHENSIVE)
+======================================================================
+
+XGBOOST_INCREMENTAL BEST MODEL
+--------------------------------------------------
+Core Performance Metrics:
+  Test Accuracy: 0.9949
+  F1-Score (Macro): 0.9525
+  F1-Score (Weighted): 0.9949
+  Precision (Macro): 0.9509
+  Recall (Macro): 0.9542
+
+Security-Focused Metrics:
+  Attack Detection Rate: 0.9991
+  False Positive Rate: 0.0070
+  True Positives (Attacks): 66788
+  False Negatives (Missed): 59
+  True Negatives (Benign): 114758
+  False Positives (Benign as Attack): 809
+
+Data Statistics:
+  Test Samples: 182,414
+  Unique Predictions: 5
+  Unique True Labels: 5
+
+Training Information:
+  Training Samples: 332,242
+  Training Duration: 9.1 seconds
+  Batches Processed: 4
+
+Top Per-Class F1 Scores:
+  DoS_Hulk: 0.9999
+  BENIGN: 0.9962
+  PortScan: 0.9918
+  SSH-Patator: 0.9239
+  FTP-Patator: 0.8505
+
+Top 10 Important Features:
+   1. rst_count_ratio: 1880.7971
+   2. fin_count_ratio: 667.5552
+   3. syn_count_ratio: 599.2676
+   4. syn_count: 448.9820
+   5. bwd_packet_length_std: 393.2505
+   6. bwd_packet_length_mean: 295.6631
+   7. ack_count: 241.4094
+   8. avg_packet_size: 112.2718
+   9. psh_count_ratio: 72.8965
+  10. is_registered_port: 72.6396
+
+Model Assessment:
+  STATUS:  EXCELLENT (>90% attack detection)
+
+
+Best Model: xgboost_incremental (F1-Macro: 0.9525)
+
+MEMORY USAGE
+----------------------------------------
+Current Memory: 49.0%
+Available: 16.01 GB
+Used: 15.36 GB
+Total System: 31.37 GB
+
+======================================================================
+ANALYSIS INSIGHTS & RECOMMENDATIONS
+======================================================================
+ Multi-Day Training: ENABLED
+   Provides balanced attack examples for better detection
+
+  Excellent average attack detection (>90%)
+   Ready for deployment consideration
+
+Storage Format:  Parquet (optimal)
+Class Balancing:  ENABLED
+
+======================================================================
+END OF COMPREHENSIVE REPORT
+======================================================================

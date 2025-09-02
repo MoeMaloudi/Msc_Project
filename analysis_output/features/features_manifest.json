@@ -1,0 +1,47 @@
+{
+  "export_date": "2025-09-02T09:58:50.901443",
+  "total_rows": 514656,
+  "total_chunks": 8,
+  "files": [
+    {
+      "filename": "features_chunk_000.csv.gz",
+      "rows": 100000,
+      "size_mb": 9.62960433959961
+    },
+    {
+      "filename": "features_chunk_001.csv.gz",
+      "rows": 22530,
+      "size_mb": 2.3990554809570312
+    },
+    {
+      "filename": "features_chunk_002.csv.gz",
+      "rows": 71241,
+      "size_mb": 6.303037643432617
+    },
+    {
+      "filename": "features_chunk_003.csv.gz",
+      "rows": 59884,
+      "size_mb": 2.380258560180664
+    },
+    {
+      "filename": "features_chunk_004.csv.gz",
+      "rows": 97665,
+      "size_mb": 4.433850288391113
+    },
+    {
+      "filename": "features_chunk_005.csv.gz",
+      "rows": 100000,
+      "size_mb": 8.268610000610352
+    },
+    {
+      "filename": "features_chunk_006.csv.gz",
+      "rows": 4956,
+      "size_mb": 0.4483976364135742
+    },
+    {
+      "filename": "features_chunk_007.csv.gz",
+      "rows": 58380,
+      "size_mb": 4.620388984680176
+    }
+  ]
+}

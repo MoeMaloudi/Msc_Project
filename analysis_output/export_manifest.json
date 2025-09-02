@@ -1,0 +1,33 @@
+{
+  "export_timestamp": "2025-09-02T09:58:51.115491",
+  "pipeline_version": "2.0",
+  "export_directory": "./analysis_output",
+  "exported_files": {
+    "models": [
+      "scaler.pkl",
+      "selected_features.pkl",
+      "selected_features.txt",
+      "xgboost_incremental.pkl"
+    ],
+    "metrics": [
+      "confusion_matrix_xgboost_incremental.csv",
+      "feature_importance_xgboost_incremental.csv",
+      "per_class_metrics_xgboost_incremental.csv",
+      "thesis_summary.csv",
+      "thesis_summary.tex",
+      "training_history_xgboost_incremental.csv",
+      "training_metrics.json"
+    ],
+    "reports": [
+      "analysis_report.txt"
+    ],
+    "features": []
+  },
+  "model_performance": {
+    "xgboost_incremental": {
+      "accuracy": 0.9948578508228535,
+      "f1_macro": 0.9524683443162386,
+      "attack_detection_rate": 0.999117387466902
+    }
+  }
+}
